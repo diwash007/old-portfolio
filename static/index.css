@@ -97,6 +97,9 @@ color: black !important;
 	background:radial-gradient(#bdd2b6, #84bd71); 
 	transition: transform .2s;
 }
+.resume {
+	margin-left: 0px !important;
+}
 .btn:hover {
 	box-shadow: 1px 1px 5px #132C33;
 	transform: scale(1.07);
