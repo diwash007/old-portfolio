@@ -91,6 +91,7 @@ color: black !important;
 	display: inline-block;
 }
 .btn {
+	color:darkgreen;
 	margin-top: 10px;
 	width:90%;
 	margin-left: 13px;
@@ -99,9 +100,12 @@ color: black !important;
 }
 .resume {
 	margin-left: 0px !important;
+	width:175px !important;
 }
 .btn:hover {
-	box-shadow: 1px 1px 5px #132C33;
+	color:darkgreen;
+	font-weight: bold;
+	box-shadow: 1px 1px 1px #132C33;
 	transform: scale(1.07);
 }
 .f {
@@ -131,6 +135,5 @@ color: black !important;
 	}
 	.btn {
 			width: 50%;
-	
-}
+		}
 }
