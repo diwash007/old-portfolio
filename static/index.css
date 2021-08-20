@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 html {
   scroll-behavior: smooth;
 }
 body {
   color:#132C33 !important;
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background:#f8ede3 !important;
 }
 
@@ -104,7 +105,7 @@ color: black !important;
 }
 .btn:hover {
 	color:darkgreen;
-	font-weight: bold;
+	font-weight: 600;
 	box-shadow: 1px 1px 1px #132C33;
 	transform: scale(1.07);
 }
@@ -119,6 +120,9 @@ color: black !important;
 }
 .cicon:hover {
 	transform: scale(1.07);
+}
+.display-name {
+	font-weight:500;
 }
 @media (min-width: 768px) { 
 	.About {
