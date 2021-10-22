@@ -71,7 +71,7 @@ color: black !important;
 }
 
 .w:hover {
-	box-shadow: 5px 5px 20px #bdd2b6;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	transform: scale(1.07);
 }
 
@@ -80,7 +80,6 @@ color: black !important;
 }
 
 .col-xs-6 {
-	
 	margin: 20px;
 }
 
@@ -114,7 +113,6 @@ color: black !important;
 
 .btn:hover {
 	color: white;
-	font-weight: 600;
 	transform: scale(1.05);
 }
 
