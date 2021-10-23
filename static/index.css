@@ -11,7 +11,7 @@ body {
 
 nav {
 	background:#f8ede3 !important;
-	border-bottom: 1px solid #bdd2b6;
+	border-bottom: 1px solid #86CAE9;
 }
 
 .bg-dark {
@@ -45,7 +45,7 @@ color: black !important;
 }
 
 .thr {
-	color:#bdd2b6 ;
+	color:#86CAE9 ;
 	width: 100%;
 	opacity: 0.5;
 	transition: transform .2s;
@@ -59,10 +59,6 @@ color: black !important;
 	display: inline-block;
 }
 
-.hero {
-	transition: transform .2s;
-}
-
 .w {
 	margin: 5px;
 	padding: 2.5px;
@@ -72,10 +68,6 @@ color: black !important;
 
 .w:hover {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	transform: scale(1.07);
-}
-
-.hero:hover {
 	transform: scale(1.07);
 }
 
@@ -102,7 +94,7 @@ color: black !important;
 	margin-top: 10px;
 	width:90%;
 	margin-left: 13px;
-	background: #84bd71;
+	background: #86CAE9;
 	transition: transform .09s;
 }
 
@@ -119,7 +111,7 @@ color: black !important;
 .f {
 	margin-top: 50px;
 	color: #132C33;
-	background:#bdd2b6; 
+	border-top:1px solid #86CAE9; 
 }
 
 .cicon {
@@ -127,7 +119,7 @@ color: black !important;
 	margin:10px;
 }
 
-.cicon:hover {
+.about-icon:hover,.cicon:hover {
 	transform: scale(1.07);
 }
 
