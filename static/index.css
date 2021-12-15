@@ -53,7 +53,7 @@ color: black !important;
 
 .works {
 	padding-top: 10vh;
-	padding: auto;
+	/* padding: auto; */
 	width: 90%;
 	margin: auto;
 	display: inline-block;
@@ -61,7 +61,8 @@ color: black !important;
 
 .w {
 	margin: 5px;
-	padding: 2.5px;
+	max-width: 70vw;
+	/* padding: 2.5px; */
 	/* border: 3px solid white; */
 	transition: transform .2s;
 	cursor: pointer;
@@ -164,6 +165,10 @@ color: black !important;
 	.skill-icon {
 		height:70px;
 		width:70px;
+	}
+
+	.w {
+		max-width: 100%;
 	}
 
 }
