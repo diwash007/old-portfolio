@@ -4,16 +4,19 @@ html {
 }
 
 body {
-  color:#132C33 !important;
-  font-family: 'Montserrat', sans-serif;
-  background:#f8ede3 !important;
+  color:#363636 !important;
+  font-family: 'Poppins', sans-serif;
+  background:#e5f1ff !important;
 }
 
 nav {
-	background:#f8ede3 !important;
-	border-bottom: 1px solid #86CAE9;
+	background:#0067de !important;
+	border-bottom: 1px solid white;
 }
 
+.hero {
+	border: 7px solid #0067de;
+}
 .bg-dark {
     background-color: rgba(0,0,0,0) !important;
 }
@@ -53,7 +56,7 @@ color: black !important;
 
 .works {
 	padding-top: 10vh;
-	/* padding: auto; */
+	/* padding: auto;ii */
 	width: 90%;
 	margin: auto;
 	display: inline-block;
@@ -78,11 +81,11 @@ color: black !important;
 }
 
 .checked {
-	color: orange;
+	color: #0067de;
 }
 
 .unchecked {
-	color: rgb(231, 208, 181);
+	color: #9dd3ec;
 }
 
 .contact {
@@ -96,7 +99,7 @@ color: black !important;
 	margin-top: 10px;
 	width:90%;
 	margin-left: 13px;
-	background: #86CAE9;
+	background: #0067de;
 	transition: transform .09s;
 }
 
@@ -112,8 +115,13 @@ color: black !important;
 
 .f {
 	margin-top: 50px;
-	color: #132C33;
-	border-top:1px solid #86CAE9; 
+	color: white;
+	border-top:1px solid #86CAE9;
+	background-color: #0067de;
+}
+
+h2 {
+	color: #0067de;
 }
 
 .cicon {
