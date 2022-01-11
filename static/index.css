@@ -71,10 +71,15 @@ color: black !important;
 	background: #0067de;
 	color: white;
 	padding-bottom: 15px;
+	margin-top: 40px !important;
 }
 
 .p-title {
 	padding-top: 10px;
+}
+
+.p-info {
+	padding: 10px;
 }
 
 .w:hover {
