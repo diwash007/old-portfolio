@@ -199,4 +199,8 @@ h2 {
 		max-width: 100%;
 	}
 
+	.single {
+		margin: 0 auto;
+		max-width: 45%;
+	}
 }
